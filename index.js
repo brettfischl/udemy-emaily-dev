@@ -34,5 +34,10 @@ app.get('/hello-chloe', function (req, res) {
   res.send('BRETT GR8')
 });
 
+
+app.get('/', function (req, res) {
+  res.send('HOMEPAG')
+});
+
 const PORT = process.env.PORT || 5000
 app.listen(PORT);
