@@ -32,7 +32,7 @@ app.get(
 
 app.get('/hello-chloe', function (req, res) {
   res.send('BRETT GR8')
-})
+});
 
 const PORT = process.env.PORT || 5000
 app.listen(PORT);
