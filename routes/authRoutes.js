@@ -17,7 +17,7 @@ module.exports = app => {
     '/api/logout',
     (req, res) => {
       req.logout();
-      res.send(req.user + "YOU OUT");
+      res.send("YOU OUT");
     }
   );
 
