@@ -32,5 +32,9 @@ app.get('/', function (req, res) {
   res.send('HOMEPAG')
 });
 
+app.get('/', function (req,res) {
+  res.send('')
+})
+
 const PORT = process.env.PORT || 5000
 app.listen(PORT);
